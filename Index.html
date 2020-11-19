@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Медрейтинг - тестовое задание</title>
+    <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
+</head>
+
+<body>
+    <div class="block">
+        <div id="app" class="block__inner">
+            <div class="tabs">
+                <nav class="tabs__navs">
+                    <ul class="tabs__navs-list">
+                        <li class="tabs__nav tabs__nav--active">Каталог</li>
+                        <li class="tabs__nav tabs__nav--favourites">Избранное</li>
+                    </ul>
+                </nav>
+                <ul class="tabs__items">
+                    <li id='catalog' class="tabs__item tabs__item--active"></li>
+                    <li id='favourites' class="tabs__item"></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="popup popup--hidden">
+        <div class="popup__overlay"></div>
+        <div class="popup__inner">
+            <div class="popup__close">Закрыть</div>
+            <img class="popup__image">
+            <div class="popup__title"></div>
+        </div>
+    </div>
+</body>
+<script defer src="js/jquery-3.5.1.min.js"></script>
+<script defer src='js/index.js'></script>
+
+</html>
